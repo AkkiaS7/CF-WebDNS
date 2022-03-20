@@ -1,4 +1,4 @@
-const base = 'https://webdns.an2ic3.workers.dev/client/v4';
+const base = 'https://cfapiproxy.akkia.workers.dev/client/v4';
 
 async function doCfRequest(method, url, token, body) {
     return fetch(`${base}/${url}`, {
